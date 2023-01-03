@@ -89,3 +89,36 @@ The examples below are given in JSON-like syntax, but it's not necessary to impl
 ```
 
 # Solution
+
+## Steps to run the solution
+
+### Scripts to test the solution:
+
+#### `1. npm install`
+
+#### `2. npm start`
+
+#### `3. npm run test`
+
+### Familiarising the UI and to test the solution:
+
+#### `Enter Event Name`
+
+Give the Event name, e.g., Name 1.
+
+#### `Enter the number of notes included in the event`
+
+This creates an array of notes with specific ID, timestamp and text.
+
+#### `Enter the details of notes`
+
+According to the number of notes in the event, enter the details and submit them by pressing the button.
+
+#### `Viewing the Events`
+
+Created events are listed below the form.
+
+#### `Resolving event conflicts`
+
+Create an event with a single note and duplicate ID, already available in the list of Events. 
+A new event will be created according to the solution given in the problem statement.
