@@ -1,0 +1,38 @@
+.tableContainer {
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  max-width: 80%;
+  min-height: 200px;
+  margin: 50px auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.listContainer {
+  background-color: #d8a8ff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin: 10px;
+  min-width: 70%;
+}
+
+.eventName {
+  font-size: x-large;
+  padding: 5px;
+}
+
+.notesList {
+  margin: 20px;
+  border-left: 3px solid grey;
+}
+
+.notesText {
+  text-align: left;
+  padding-bottom: 10px;
+}
